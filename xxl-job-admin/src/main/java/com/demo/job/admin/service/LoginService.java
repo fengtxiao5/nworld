@@ -1,11 +1,12 @@
 package com.demo.job.admin.service;
 
-import com.xxl.job.admin.core.model.XxlJobUser;
-import com.xxl.job.admin.core.util.CookieUtil;
-import com.xxl.job.admin.core.util.I18nUtil;
-import com.xxl.job.admin.core.util.JacksonUtil;
-import com.xxl.job.admin.dao.XxlJobUserDao;
-import com.xxl.job.core.biz.model.ReturnT;
+
+import com.demo.job.admin.core.model.XxlJobUser;
+import com.demo.job.admin.core.util.CookieUtil;
+import com.demo.job.admin.core.util.I18nUtil;
+import com.demo.job.admin.core.util.JacksonUtil;
+import com.demo.job.admin.dao.XxlJobUserDao;
+import com.demo.job.core.biz.model.ReturnT;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.DigestUtils;
 

@@ -1,10 +1,12 @@
 package com.demo.job.admin.dao;
 
 
+import com.demo.job.admin.core.model.XxlJobLogReport;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * job log

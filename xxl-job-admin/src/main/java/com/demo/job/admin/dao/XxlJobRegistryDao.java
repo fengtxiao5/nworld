@@ -1,6 +1,6 @@
 package com.demo.job.admin.dao;
 
-import com.xxl.job.admin.core.model.XxlJobRegistry;
+import com.demo.job.admin.core.model.XxlJobRegistry;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
