@@ -3,8 +3,13 @@ package com.demo.job.admin.core.scheduler;
 import com.demo.job.admin.core.conf.XxlJobAdminConfig;
 import com.demo.job.admin.core.thread.*;
 import com.demo.job.admin.core.util.I18nUtil;
+import com.demo.job.core.biz.ExecutorBiz;
+import com.demo.job.core.enums.ExecutorBlockStrategyEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
 
 /**
@@ -66,7 +71,7 @@ public class XxlJobScheduler  {
     // ---------------------- I18n ----------------------
 
     private void initI18n(){
-        for (ExecutorBlockStrategyEnum item:ExecutorBlockStrategyEnum.values()) {
+        for (ExecutorBlockStrategyEnum item: ExecutorBlockStrategyEnum.values()) {
             item.setTitle(I18nUtil.getString("jobconf_block_".concat(item.name())));
         }
     }
