@@ -119,7 +119,7 @@ public class IpUtil {
         }
     }
 
-    private static String  getIp() {
+    public static String  getIp() {
         return getLocalAddress().getHostAddress();
     }
 
