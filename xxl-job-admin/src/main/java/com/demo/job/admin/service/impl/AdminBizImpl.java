@@ -1,8 +1,11 @@
 package com.demo.job.admin.service.impl;
 
 
+import com.demo.job.admin.core.thread.JobCompleteHelper;
+import com.demo.job.admin.core.thread.JobRegistryHelper;
 import com.demo.job.core.biz.AdminBiz;
 import com.demo.job.core.biz.model.HandleCallbackParam;
+import com.demo.job.core.biz.model.RegistryParam;
 import com.demo.job.core.biz.model.ReturnT;
 import org.springframework.stereotype.Service;
 
